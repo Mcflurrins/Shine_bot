@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Should I Play Games?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <div class="topline" aria-hidden="true">
+      <span class="signal-dot"></span>
+      <span>THIS IS HOW ME DO IT</span>
+      <span class="topline-rule"></span>
+      <span>I HAVE SPOKEN</span>
+    </div>
+
+    <section class="oracle" aria-labelledby="question">
+      <div class="eyebrow">Sample from a Monte Carlo Simulation</div>
+      <h1 id="question">Should I <br><em>be mad at</em> today?</h1>
+      <p class="intro">0.02% chance of 'yes!'.</p>
+
+      <div class="answer-stage" aria-live="polite">
+        <div class="answer-orbit" aria-hidden="true"></div>
+        <p id="answer" class="answer">&lt;/&gt;</p>
+      </div>
+
+      <button id="draw-button" type="button">
+        <span class="button-label">Draw answer</span>
+        <span class="spinner" aria-hidden="true"></span>
+      </button>
+    </section>
+
+    <footer>
+      <span>TOTALLY LEGIT 100% GENUINE TRUST ME BRO</span>
+      <span class="footer-mark">✳</span>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
